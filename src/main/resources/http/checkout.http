@@ -1,0 +1,19 @@
+// Get product with details about price
+GET http://localhost:8080/product/B
+###
+GET http://localhost:8080/product/A
+####
+GET http://localhost:8080/product/G
+
+// Add product to session basket
+###
+POST http://localhost:8080/product/A
+###
+POST http://localhost:8080/product/B
+###
+POST http://localhost:8080/product/H
+
+// Generate receipt
+###
+GET http://localhost:8080/receipt
+
