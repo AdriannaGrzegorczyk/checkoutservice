@@ -73,7 +73,8 @@ Returns a full receipt with all scanned products and the total price.
 ---
 
 ## Details
-
+- To run project use mvn spring-boot:run or run main method from CheckoutServiceApplication class
+- To run tests use mvn test command or run them directly from IDE test by test. 
 
 - This project used in memory hard coded data example stored in _com/example/checkoutservice/dao/product/ProductLocalRepository.java_ which can be easly overridden by new implementation of ProductRepository which could use other persistent methods like DB
 - All price are stored in cents to eliminate problem with decimal point values. This solution as well is easy extendable with BigInteger if requirement will be to handle big numbers.
