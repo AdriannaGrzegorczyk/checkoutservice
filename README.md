@@ -92,7 +92,7 @@ Returns a full receipt with all scanned products and the total price.
 - And **Buy X with Y** discount like:
 
   | First Item | Second Item | First Quantity | Second Quantity | Discount Quantity |
-      |------------|-------------|----------------|-----------------|------------------|
+  |------------|-------------|----------------|-----------------|------------------|
   | A          | B           | 1              | 1               | -500             |
 
 
